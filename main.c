@@ -2,9 +2,9 @@
 
 int main()
 {
-    int data = 0b10100001; // value in binary
-    int bin[8]; // Array for deocompose the byte in bits 
-    int val = 0; // varieble for recompose de value
+    unsigned char data = 0b10100001; // value in binary
+    char bin[8]; // Array for deocompose the byte in bits 
+    unsigned char val = 0; // varieble for recompose de value
     
     
     printf("Value for decompose is: %d\n", data);
