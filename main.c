@@ -6,7 +6,6 @@ int main()
     char bin[8]; // Array for deocompose the byte in bits 
     unsigned char val = 0; // varieble for recompose de value
     
-    
     printf("Value for decompose is: %d\n", data);
     
     for (char i = 0; i < 8; i++)
@@ -21,5 +20,6 @@ int main()
     }
     
     printf("Value recomposed is: %d\n", val);
+    system("pause"); 
     return 0;
 }
